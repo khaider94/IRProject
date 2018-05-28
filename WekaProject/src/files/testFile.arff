@@ -1,0 +1,12 @@
+@relation testFile
+
+@attribute hello {0,1}
+@attribute world {0,1}
+@attribute class {spam,ham}
+
+@data
+1,1,ham
+1,1,ham
+1,1,spam
+0,1,spam
+0,0,spam

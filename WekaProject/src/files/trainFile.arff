@@ -1,0 +1,12 @@
+@relation trainFile
+
+@attribute hello {0,1}
+@attribute world {0,1}
+@attribute class {spam,ham,other}
+
+@data
+1,1,ham
+1,1,ham
+1,1,ham
+1,0,spam
+1,1,ham
